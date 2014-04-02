@@ -13,12 +13,7 @@ if($status != 2 && $status != 1) 	die('Você não possui acesso a esta área');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<script type="text/javascript" src="../js/jquery1.7.1.js"></script>
-	<script type="text/javascript" src="../js/custom/js/jquery-ui-1.8.17.custom.min.js"></script>
-	<script type="text/javascript" src="../js/defesas.js"></script>
-	<script type="text/javascript" src="../js/ui.datepicker-pt-BR.js"></script>
-	<link rel="stylesheet" href="../js/custom/css/start/jquery-ui-1.8.17.custom.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="../defesas.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="../lilacs.css" type="text/css" media="all" />
 	<title> Lilacs->OJS </title>
 </head>
 
