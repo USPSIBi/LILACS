@@ -24,4 +24,7 @@
 
 -Retirar arquivos do stage
   git reset HEAD
-   
+
+-Comitar remoção de arquivos
+  git rm arquivo.txt
+  git commit -m 'arquivo removido'    
