@@ -1,0 +1,27 @@
+-Rotina para trabalhar no código no dia-a-dia, depois de alterar os códigos:
+ 1)Acessar branch develop
+   git checkout develop
+ 2)Certificar-se que está na branch correta
+   git status
+ 5)Comitar sua versão
+   git add .
+   git commit -m 'my commit' 
+ 6)Antes do push, vamos pegar a última versão do código.
+   git pull origin develop
+ 7)Corrigir conflitos nos arquivos indicados
+ 8)Subir código para github
+   git push origin develop
+----------------------------------------------------
+-Criando uma branch (pegando o estado atual da master) para desenvolvimento
+  git checkout -b develop
+  
+-Listar branches
+  git branch -a
+   
+-Mandar as mudanças da branch develop para branch master, podemos fazer em conjunto.
+  git checkout master
+  git merge develop
+
+-Retirar arquivos do stage
+  git reset HEAD
+   
